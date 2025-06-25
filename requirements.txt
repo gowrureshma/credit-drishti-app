@@ -1,0 +1,8 @@
+pandas
+scikit-learn
+lightgbm
+joblib
+flask
+requests
+streamlit
+gunicorn

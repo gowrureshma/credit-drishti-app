@@ -1,0 +1,46 @@
+{
+    "training_timestamp_utc": "2025-06-25T08:04:52.134011",
+    "model_versions": {
+        "scorecard": "v2.0",
+        "lgbm": "v2.0"
+    },
+    "evaluation_metrics": {
+        "scorecard_training_auc": 0.8627239731759632,
+        "lgbm_cv_auc": 0.9470421261692757
+    },
+    "iv_scores": {
+        "person_home_ownership": 0.377,
+        "loan_intent": 0.0958,
+        "loan_grade": 0.8817,
+        "cb_person_default_on_file": 0.164,
+        "person_income_binned": 0.4435,
+        "person_emp_length_binned": 0.0551,
+        "loan_amnt_binned": 0.07,
+        "loan_int_rate_binned": 0.5586,
+        "loan_percent_income_binned": 0.5948
+    },
+    "lgbm_feature_importance": {
+        "person_income": 1563.8,
+        "loan_int_rate": 684.0,
+        "loan_percent_income": 515.0,
+        "person_age": 412.6,
+        "loan_amnt": 400.4,
+        "person_emp_length": 380.8,
+        "person_home_ownership_RENT": 315.4,
+        "person_home_ownership_OWN": 190.2,
+        "cb_person_cred_hist_length": 181.0,
+        "loan_intent_HOMEIMPROVEMENT": 174.0,
+        "loan_intent_VENTURE": 164.2,
+        "loan_intent_MEDICAL": 157.0,
+        "loan_grade_D": 131.2,
+        "loan_intent_EDUCATION": 120.6,
+        "loan_intent_PERSONAL": 120.0,
+        "loan_grade_E": 118.2,
+        "loan_grade_C": 98.2,
+        "loan_grade_G": 68.6,
+        "loan_grade_B": 65.0,
+        "loan_grade_F": 61.0,
+        "cb_person_default_on_file_Y": 33.2,
+        "person_home_ownership_OTHER": 15.6
+    }
+}
