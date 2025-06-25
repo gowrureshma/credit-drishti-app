@@ -9,7 +9,7 @@ st.set_page_config(page_title="Credit-Drishti v2.0", layout="wide", initial_side
 st.title("Credit-Drishti v2.0: Scoring Engine")
 
 # --- API Endpoint ---
-API_URL = "http://127.0.0.1:5000/predict"
+API_URL = "https://credit-drishti-app.onrender.com/predict"
 
 # --- User Input Form in Sidebar ---
 with st.sidebar:
